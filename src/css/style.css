@@ -88,7 +88,7 @@ background: transparent;
 }
 
 .window .header > .icon {
-    background: url('./src/img/todo98.png') no-repeat;
+    background: url('../img/todo98.png') no-repeat;
     width: 15px;
     height: 15px;
     float: left;
@@ -97,7 +97,7 @@ background: transparent;
   
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { 
     .window .header > .icon {
-      background-image: url('./src/img/todo98.png');
+      background-image: url('../img/todo98.png');
       background-size: 16px 16px;
       
     }
@@ -141,7 +141,7 @@ ul li::before{
     position: absolute;
     height: 19px;
     width: 19px;
-    background-image: url('./src/img/Unchecked.png');
+    background-image: url('../img/Unchecked.png');
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -154,7 +154,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url('./src/img/check.png');
+    background-image: url('../img/check.png');
 }
 
 ul li span{
