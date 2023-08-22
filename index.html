@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- 
+████████╗░█████╗░██████╗░░█████╗░░░░░█████╗░░█████╗░
+╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗░░░██╔══██╗██╔══██╗
+░░░██║░░░██║░░██║██║░░██║██║░░██║░░░╚██████║╚█████╔╝
+░░░██║░░░██║░░██║██║░░██║██║░░██║░░░░╚═══██║██╔══██╗
+░░░██║░░░╚█████╔╝██████╔╝╚█████╔╝██╗░█████╔╝╚█████╔╝
+░░░╚═╝░░░░╚════╝░╚═════╝░░╚════╝░╚═╝░╚════╝░░╚════╝░ -->
+
+
+<!-- 
+██╗░░██╗██╗███╗░░░███╗██╗░░░██╗██████╗░███████╗██╗░░░██╗
+██║░░██║██║████╗░████║██║░░░██║██╔══██╗██╔════╝╚██╗░██╔╝
+███████║██║██╔████╔██║██║░░░██║██████╦╝█████╗░░░╚████╔╝░
+██╔══██║██║██║╚██╔╝██║██║░░░██║██╔══██╗██╔══╝░░░░╚██╔╝░░
+██║░░██║██║██║░╚═╝░██║╚██████╔╝██████╦╝███████╗░░░██║░░░
+╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚══════╝░░░╚═╝░░░ -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/src/css/style.css">
+    <title>Todo.98</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+</head>
+<body>
+    <div class="window">
+  <div class="inner">
+    <div class="header">
+      <div class="icon"></div>
+      Todo.98 - Notepad
+      <div class="buttons"></div>
+    </div>
+    <div class="actions">
+      <div id="date"></div>
+    </div>
+    <div class="content">
+      <div class="inner">
+        <div class="row">
+        <input type="text" id="todo-input" placeholder="Write Something in Todo">
+        <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="todo-list">
+            <!-- <li class="checked">tast 1</li>
+            <li>tast 2</li>
+            <li>tast 3</li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/src/js/todo98.js"></script>
+</body>
+</html>
